@@ -14,7 +14,7 @@ function toggleContent(index) {
       currentIcon.src = isOpen ? "/images/minus.svg" : "/images/plus.svg";
     } else {
       contentDiv.style.height = "0px";
-      toggles[i].style.color = "#151330";
+      toggles[i].style.color = "#212157";
       icons[i].src = "/images/plus.svg";
     }
   });
