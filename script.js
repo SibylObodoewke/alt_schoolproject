@@ -11,10 +11,10 @@ function toggleContent(index) {
     if (i === index) {
       currentContentDiv.style.height = isOpen ? "0px" : currentContentDiv.scrollHeight + "px";
       toggles[i].style.color = isOpen ? "#151330" : "#0084e9";
-      currentIcon.src = isOpen ? "/images/plus.svg" : "/images/minus.svg";
+      currentIcon.src = isOpen ? "/images/minus.svg" : "/images/plus.svg";
     } else {
       contentDiv.style.height = "0px";
-      toggles[i].style.color = "#111130";
+      toggles[i].style.color = "#151330";
       icons[i].src = "/images/plus.svg";
     }
   });
